@@ -246,8 +246,12 @@ def startWaitingTrans():
 def functionEnd(operation):
     tranNumber = get_digit(operation)
     for transactoin in transactionTableObjects:
-        if transactoin.transactionID == tranNumber and transactoin.trasnsactionState != A:
-            print "Committing transaction %d" %tranNumber
+        try:
+            if transactoin.transactionID == tranNumber and transactoin.trasnsactionState != A:
+                print "Committing transaction %d" % tranNumber
+                transactoin.transactionState = C
+        except AttributeError:
+            print "Committing transaction %d" % tranNumber
             transactoin.transactionState = C
     unlock(tranNumber)
 
