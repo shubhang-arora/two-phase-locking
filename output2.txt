@@ -1,0 +1,48 @@
+/usr/local/bin/python2.7 "/Volumes/Macintosh HD/College/smeseters/Spring 14/DB II/Project01/TheCode/Assignment.py"
+Begin Transaction 1
+Read operation
+Putting the data item Y under ReadLock by Transaction 1
+write operation
+Upgrading Readlock to WriteLock on data item Y for transaction 1
+Read operation
+Putting the data item Z under ReadLock by Transaction 1
+Begin Transaction 2
+Read operation
+Putting the data item X under ReadLock by Transaction 2
+write operation
+Upgrading Readlock to WriteLock on data item X for transaction 2
+write operation
+Upgrading Readlock to WriteLock on data item Z for transaction 1
+Read operation
+Conflicting Write lock: data item Y is under ReadLock by Transaction 1
+calling wound-wait mechanism
+changing transaction state for transaction 2 to blocked
+end
+Committing transaction 1
+Unlocking all resources held by transaction 1
+checking if there are any transactions waiting on the freed resources
+attempting operation r2 (Y);
+
+Read operation
+Putting the data item Y under ReadLock by Transaction 2
+Begin Transaction 3
+Read operation
+Putting the data item Z under ReadLock by Transaction 3
+write operation
+Upgrading Readlock to WriteLock on data item Z for transaction 3
+write operation
+Upgrading Readlock to WriteLock on data item Y for transaction 2
+end
+Committing transaction 2
+Unlocking all resources held by transaction 2
+checking if there are any transactions waiting on the freed resources
+Read operation
+Putting the data item X under ReadLock by Transaction 3
+write operation
+Upgrading Readlock to WriteLock on data item X for transaction 3
+end
+Committing transaction 3
+Unlocking all resources held by transaction 3
+checking if there are any transactions waiting on the freed resources
+
+Process finished with exit code 0

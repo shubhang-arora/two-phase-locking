@@ -1,0 +1,13 @@
+
+public class mainClass {
+	private static String[] input;
+	
+	
+	private static void readFile(String filename){
+		
+	}
+	
+	public static void main(){
+		
+	}
+}

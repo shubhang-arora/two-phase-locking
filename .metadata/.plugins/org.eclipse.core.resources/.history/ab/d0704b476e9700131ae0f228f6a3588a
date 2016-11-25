@@ -1,0 +1,11 @@
+
+public class mainClass {
+	
+	private void readFile(String filename){
+		
+	}
+	
+	public static void main(){
+		
+	}
+}

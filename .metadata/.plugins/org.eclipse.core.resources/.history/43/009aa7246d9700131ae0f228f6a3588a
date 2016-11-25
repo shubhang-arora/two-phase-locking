@@ -1,0 +1,8 @@
+
+public class Locktable {
+	public static String name;
+	public static long[] transactionID;
+	public static String[] lockState;
+	public static long[] waitingTransaction;
+	
+}

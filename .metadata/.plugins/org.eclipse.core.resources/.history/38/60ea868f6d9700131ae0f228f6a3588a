@@ -1,0 +1,12 @@
+
+public class Locktable {
+	public static String name;
+	public static long[] lockHeldBY;
+	public static String[] lockState;
+	public static long[] waitingTransaction;
+	
+	public static Locktable(){
+		
+	}
+	
+}

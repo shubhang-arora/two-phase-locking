@@ -1,0 +1,8 @@
+
+public class TransactionTable {
+	public static long transactionID;
+	public static long timeStamp;
+	public static String[] transactionState;
+	public static String[] lockedResources;
+	public static String[] blockedOperations;
+}
