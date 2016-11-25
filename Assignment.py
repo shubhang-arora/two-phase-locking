@@ -1,5 +1,8 @@
-__author__ = 'sidharthgoyal'
+__author__ = 'Sahil Sharma' \
+             'Shubhang Arora'
 import copy
+import os
+
 #filename=raw_input("Please enter the file name: ")
 #print(filename)
 class lockTable:
@@ -51,7 +54,7 @@ returnflag=1
 
 
 #specify the input file.
-with open("input1.txt", 'r') as text:
+with open(os.listdir(os.getcwd())[2], 'r') as text:
     for line in text:
         inputList.append(line)
 
