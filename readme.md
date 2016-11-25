@@ -1,4 +1,8 @@
-NAME
+Group Members:
+1. SHUBHANG ARORA [1410110399]
+2. SAHIL SHARMA [1410110345]
+
+NAME:
 two phase locking
 
 How To Run
