@@ -1,5 +1,5 @@
-__author__ = 'Sahil Sharma' \
-             'Shubhang Arora'
+__author__ = 'Sahil Sharma   [1410110345]' \
+             'Shubhang Arora [1410110399]'
 import copy
 import os
 
@@ -54,7 +54,7 @@ returnflag=1
 
 
 #specify the input file.
-with open(os.listdir(os.getcwd())[2], 'r') as text:
+with open(os.listdir(os.getcwd())[12], 'r') as text:
     for line in text:
         inputList.append(line)
 
