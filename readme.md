@@ -35,3 +35,10 @@ e3;
 Program first identifies what is the operation in method assignFunction and then it assigns different functions to begin transaction, readLock, writeLock, end transaction.
 
 Output is printed to the console
+
+
+BUGS: <br>
+ If      you     find     a     bug,     please     report     it     at
+       https:/github.com/shubhang-arora/two-phase-locking
+
+
