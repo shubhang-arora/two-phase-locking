@@ -1,40 +1,40 @@
-Group Members:
+Group Members: <br>
 1. SHUBHANG ARORA [1410110399]
 2. SAHIL SHARMA [1410110345]
 
-NAME:
+NAME: <br>
 two phase locking
 
-How To Run
+How To Run <br>
 python Assignment.py
 
-DESCRIPTION
+DESCRIPTION <br>
 Simulation of two-phase locking (2PL) protocol for concurrency control, with the wound-wait method for dealing with deadlock.
-Input to the program is given via a text file (Input1.txt). Each line has a single transaction operation. The possible operations are: b (begin transaction), r (read item), w (write item), and e (end transaction). Each operation will be followed by a transaction id that is an integer between 1 and 99. For r and w operations, an item name follows between parentheses (item names are single letters from A to Z). An example is given below.
-Example Input File:
-Input 1:
-b1;
-r1 (Y);
-w1 (Y);
-r1 (Z);
-b2;
-r2 (X);
-w2 (X);
-w1 (Z);
-e1;
-r2 (Y);
-b3;
-r3 (Z);
-w3 (Z);
-w2 (Y);
-e2;
-r3 (X);
-w3 (X);
-e3;
+Input to the program is given via a text file (Input1.txt). Each line has a single transaction operation. The possible operations are: b (begin transaction), r (read item), w (write item), and e (end transaction). Each operation will be followed by a transaction id that is an integer between 1 and 99. For r and w operations, an item name follows between parentheses (item names are single letters from A to Z). An example is given below. <br>
+Example Input File: <br>
+Input 1: <br>
+b1; <br>
+r1 (Y); <br>
+w1 (Y);<br>
+r1 (Z); <br>
+b2; <br>
+r2 (X); <br>
+w2 (X); <br>
+w1 (Z); <br>
+e1; <br>
+r2 (Y); <br>
+b3; <br>
+r3 (Z); <br>
+w3 (Z); <br>
+w2 (Y); <br>
+e2; <br>
+r3 (X); <br>
+w3 (X); <br>
+e3; <br>
 
-Program first identifies what is the operation in method assignFunction and then it assigns different functions to begin transaction, readLock, writeLock, end transaction.
+Program first identifies what is the operation in method assignFunction and then it assigns different functions to begin transaction, readLock, writeLock, end transaction. <br>
 
-Output is printed to the console
+Output is printed to the console <br>
 
 
 BUGS: <br>
