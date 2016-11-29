@@ -1,16 +1,17 @@
-Group Members: <br>
+**Authors** <br>
 1. SHUBHANG ARORA [1410110399] <br>
 2. SAHIL SHARMA [1410110345]
 
-NAME: <br>
+**NAME:** <br>
 two phase locking
 
-How To Run <br>
+**How To Run** <br>
 python Assignment.py
 
-DESCRIPTION <br>
+**DESCRIPTION** <br>
 Simulation of two-phase locking (2PL) protocol for concurrency control, with the wound-wait method for dealing with deadlock.
 Input to the program is given via a text file (Input1.txt). Each line has a single transaction operation. The possible operations are: b (begin transaction), r (read item), w (write item), and e (end transaction). Each operation will be followed by a transaction id that is an integer between 1 and 99. For r and w operations, an item name follows between parentheses (item names are single letters from A to Z). An example is given below. <br>
+
 Example Input File: <br>
 Input 1: <br>
 b1; <br>
@@ -37,7 +38,7 @@ Program first identifies what is the operation in method assignFunction and then
 Output is printed to the console <br>
 
 
-BUGS: <br>
+**BUGS:** <br>
  If      you     find     a     bug,     please     report     it     at
        https:/github.com/shubhang-arora/two-phase-locking
 
