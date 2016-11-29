@@ -40,6 +40,6 @@ Output is printed to the console <br>
 
 **BUGS:** <br>
  If      you     find     a     bug,     please     report     it     at
-       https:/github.com/shubhang-arora/two-phase-locking
+       **https:/github.com/shubhang-arora/two-phase-locking**
 
 
